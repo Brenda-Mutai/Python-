@@ -6,7 +6,7 @@ print('Type "exit" to end the chat.')
 while True:
     user_input = input('You: ')
     if user_input.lower() == 'exit':
-        print('Chatbot: Goodbye! Have a great day!')
+        print('Chatbot:Goodbye!Have a great day!')
         break
     elif 'data science' in user_input.lower():
         print('Chatbot: Data Science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data.')
