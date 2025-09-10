@@ -4,7 +4,7 @@ print('You can ask me anthing about Data Science and AI')
 print('Type "exit" to end the chat.')
  
 while True:
-    user_input = input('You: ')
+    user_input = input('You:')
     if user_input.lower() == 'exit':
         print('Chatbot:Goodbye!Have a great day!')
         break
